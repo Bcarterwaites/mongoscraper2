@@ -1,4 +1,4 @@
-// Require scripts needed to make controler 
+// Require script needed to make controler 
 var scrape = require("../scripts/scrape");
 var makeDate = require("../scripts/date")
 
