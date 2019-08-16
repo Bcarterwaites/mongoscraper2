@@ -1,0 +1,28 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "Mongo Scraper",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bcarterwaites/mongoScraper.git"
+  },
+  "author": "Carter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bcarterwaites/mongoScraper/issues"
+  },
+  "homepage": "https://github.com/Bcarterwaites/mongoScraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.20",
+    "request": "^2.88.0"
+  }
+}
