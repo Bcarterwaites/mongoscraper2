@@ -25,7 +25,7 @@ app.set("view engine", "handlebars")
 
 // User bodParser in our app
 app.use(bodyParser.urlencoded({
-    extended: false;
+    extended: false
 }))
 
 // Have every request go through our router middleware
